@@ -1,0 +1,230 @@
+/*  CSS  */
+
+/* Naming Convention type things
+
+lb = label
+bu = button [Note: Bootstrap uses "btn" already]
+ct = content
+posadj = position adjust
+
+
+*/
+
+/* Tag styling */
+
+
+body{
+font-size:14px;
+background-color: rgba(225,225,225,0.8);
+}
+
+legend{
+font-size:1.15rem;
+font-family: 'Dosis', sans-serif;
+
+}
+
+h1{
+font-size:1.75rem;
+margin:0px 20px 20px 20px;
+padding-top:20px;
+font-family: 'Dosis', sans-serif;
+}
+
+
+p,h1{
+width:75vw;
+text-align: center;
+margin-right:auto;
+margin-left:auto;
+}
+
+form{
+margin-right:5vw;
+margin-left:5vw;
+}
+
+legend{
+margin-top:5px;
+margin-bottom:10px;
+}
+
+input{
+margin-bottom:8px;
+}
+
+[type="radio"]{
+height:1.2rem;
+width:1.2rem;
+}
+
+
+[type="checkbox"]{
+height:1.1rem;
+width:1.1rem;
+}
+
+
+textarea{
+width:85%;
+height:8vh
+}
+
+
+hr{
+margin-right:10vw;
+margin-left: 10vw;
+background-color:#C4C4C4;
+}
+
+fieldset{
+margin-bottom:15px;
+}
+
+
+/* CSS for specific sections */
+
+.ct-p{
+margin:20px;
+background-color:#E0F2F8;
+border-radius: 5px;
+box-shadow: 0.15rem 0.15rem 0.15rem .25rem rgba(165,165,165, .25);
+}
+
+.lb-bi{
+width:95%;
+}
+
+.in-bi{
+width:80%;
+}
+
+.lb-chk{
+text-align:center;
+margin-bottom:15px;
+position:relative;
+top:-2px;
+}
+
+
+.lb-rad{
+height:1.2rem;
+position:relative;
+top:-2px;
+}
+
+.bu-row{
+margin-top:5px;
+margin-bottom: 5px;
+padding-bottom:25px;
+}
+
+
+
+@media screen and (max-width:1440px) and (min-width:769px){
+
+p,h1{
+width:65vw;
+text-align: center;
+margin-right:auto;
+margin-left:auto;
+}
+
+
+body{
+font-size:16px;
+}
+
+form{
+margin-right:10vw;
+margin-left:10vw;
+}
+
+hr{
+margin-right:3vw;
+margin-left: 3vw;
+background-color:#C4C4C4;
+}
+
+.ct-p{
+width:65vw;
+margin:30px auto 30px auto;
+}
+
+.in-bi{
+width:auto;
+}
+
+
+.lb-bi{
+width:25vw;
+}
+
+.ct-chk{
+width:45%;
+display:inline-block;
+}
+
+.posadj-chk{
+top:-39px;
+position:relative;
+}
+
+.bu-row{
+padding-bottom:45px;
+}
+
+}
+
+
+@media screen and  (min-width:1441px){
+
+body{
+font-size:16px;
+}
+
+p,h1{
+width:65vw;
+text-align: center;
+margin-right:auto;
+margin-left:auto;
+}
+
+hr{
+margin-right:5vw;
+margin-left: 5vw;
+background-color:#C4C4C4;
+}
+
+.ct-p{
+width:65vw;
+margin:30px auto 30px auto;
+}
+
+
+.lb-bi{
+width:25vw;
+}
+
+.in-bi{
+width:auto;
+}
+
+
+.ct-chk{
+width:45%;
+display:inline-block;
+}
+
+.posadj-chk{
+top:-39px;
+position:relative;
+}
+
+.bu-row{
+padding-bottom:45px;
+}
+
+
+
+}

@@ -1,0 +1,186 @@
+<!-- 
+Survey Form Full Sized Test Page
+Version: 1.00.0
+Last Updated: 06/10/2018
+
+Free Code Camp Requirements Project Requirements: https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form
+
+Current Status:
+Mobile friendly
+Laptop friendly
+Larger screen friendly
+Partially tablet friendly
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wilson Jiang Survey</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Scripts and other libraries here -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> <!--for Bootstrap 4.1-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> <!-- For Font Awesome Icons -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- For jQuery -->
+<link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
+<link href="./css/test-style.css" rel="stylesheet" type="text/css">
+
+
+<script>
+
+</script>
+
+
+<style>
+
+</style>
+</head>
+
+<body>
+
+<div class="ct-p">
+<header>
+    <h1 id="title">
+        NYC Urban Dance History Survey
+    </h1>
+    <p id="description">
+        Tell us about your dance history!
+    </p>
+</header>
+<main>
+    <form class="" id="survey-form">
+        <fieldset>
+            <legend>Basic Information:</legend>
+            <label class="lb-bi" for="name" id="name-label">* Name:</label> 
+            <input class="in-bi" id="name" name="name" placeholder="Enter Name Here" required>
+            <br>
+            <label class="lb-bi" for="email" id="email-label">* Email:</label>
+            <input class="in-bi" id="email" name="email" type="email" placeholder="Enter Email Here" required>
+            <br>
+            <label class="lb-bi" for="years" id="number-label">* Years dancing:</label>
+            <input class="in-bi" id="number" name="years" type="number" min="0" max="99" required placeholder="# here">
+        </fieldset>
+        
+        <hr> 
+        
+        <fieldset>
+            <legend>What style(s) do you do?</legend>
+            <div class="ct-chk">
+                <input type="checkbox" name="style1" value="House">
+                <label class="lb-chk" for="style1">House</label><br>
+                <input type="checkbox" name="style2" value="Breaking">
+                <label class="lb-chk" for="style2">Breaking</label><br>
+                <input type="checkbox" name="style3" value="Popping">
+                <label class="lb-chk" for="style3">Popping</label><br>
+                <input type="checkbox" name="style4" value="Hip Hop">
+                <label class="lb-chk" for="style4">Hip Hop</label><br>
+                <input type="checkbox" name="style5" value="Lite Feet">
+                <label class="lb-chk" for="style5">Lite Feet</label><br>
+                <input type="checkbox" name="style6" value="Chicago Footwork">
+                <label class="lb-chk" for="style6">Chicago Footwork</label><br>
+            </div>
+            <div class="ct-chk posadj-chk">
+                <input type="checkbox" name="style7" value="Krump">
+                <label class="lb-chk" for="style7">Krump</label><br>
+                <input type="checkbox" name="style8" value="Voguing">
+                <label class="lb-chk" for="style8">Voguing</label><br>
+                <input type="checkbox" name="style8" value="Waacking">
+                <label class="lb-chk" for="style8">Waacking</label><br>
+                <input type="checkbox" name="style9" value="Locking">
+                <label class="lb-chk" for="style9">Locking</label><br>
+                <input type="checkbox" name="style10" value="Urban Choreo">
+                <label class="lb-chk" for="style10">Urban Choreo</label><br>    
+            </div>
+        </fieldset>
+        
+        
+        
+        <fieldset>
+            <legend>What style(s) do you want to learn?</legend>
+             <div class="ct-chk">
+                <input type="checkbox" name="learn1" value="House">
+                <label class="lb-chk" for="learn1">House</label><br>
+                <input type="checkbox" name="learn2" value="Breaking">
+                <label class="lb-chk" for="learn2">Breaking</label><br>
+                <input type="checkbox" name="learn3" value="Popping">
+                <label class="lb-chk" for="learn3">Popping</label><br>
+                <input type="checkbox" name="learn4" value="Hip Hop">
+                <label class="lb-chk" for="learn4">Hip Hop</label><br>
+                <input type="checkbox" name="learn5" value="Lite Feet">
+                <label class="lb-chk" for="learn5">Lite Feet</label><br>
+                <input type="checkbox" name="learn6" value="Chicago House">
+                <label class="lb-chk" for="learn6">Chicago House</label><br>
+            </div>    
+            
+            <div class="ct-chk pos-adj-chk">    
+                <input type="checkbox" name="learn7" value="Krump">
+                <label class="lb-chk" for="learn7">Krump</label><br>
+                <input type="checkbox" name="learn8" value="Voguing">
+                <label class="lb-chk" for="learn8">Voguing</label><br>
+                <input type="checkbox" name="learn9" value="Waacking">
+                <label class="lb-chk" for="learn9">Waacking</label><br>
+                <input type="checkbox" name="learn10" value="Locking">
+                <label class="lb-chk" for="learn10">Locking</label><br>
+                <input type="checkbox" name="learn11" value="Urban Choreo">
+                <label class="lb-chk" for="learn11">Urban Choreo</label><br>
+            </div>    
+        </fieldset>
+        
+        <hr>
+        
+        <fieldset>
+            <legend>What dance team are you on if any?</legend>
+            <input type="radio" name="team" value="Unique Movement">
+            <label class="lb-rad" for="team">Unique Movement</label><br>
+            <input type="radio" name="team" value="Outburst">
+            <label class="lb-rad" for="team">Outburst</label><br>
+            <input type="radio" name="team" value="Mint">
+            <label class="lb-rad" for="team">Mint</label><br>
+            <input type="radio" name="team" value="Neighbors">
+            <label class="lb-rad" for="team">Neighbors</label><br>
+            <input type="radio" name="team" value="Project D">
+            <label class="lb-rad" for="team">Project D</label><br>
+            <input type="radio" name="team" value="Heartbreak Crew">
+            <label class="lb-rad" for="team">Heartbreak Crew</label><br>
+            <input type="radio" name="team" value="Other">
+            <label class="lb-rad" for="team">Other</label><br>
+            <input type="radio" name="team" value="None">
+            <label class="lb-rad" for="team">None</label>
+        </fieldset>
+        
+        <fieldset>
+        <legend>How many years have you been on a team for?</legend>      
+        <select id="dropdown">
+            <option value="1yrmax">0 to 1 year</option>
+            <option value="3yrmax">1 to 3 years</option>
+            <option value="5yrmax">3 to 5 years</option>
+            <option value="5plus">More than 5 years</option>
+        </select>
+        </fieldset>
+           
+        <fieldset>
+            <legend>Are you auditioning for a team next season?</legend>
+            <input type="radio" name="aud" value="Yes">
+            <label for="aud">Yes</label><br>
+            <input type="radio" name="aud" value="No">
+            <label for="aud">No</label><br>
+            <input type="radio" name="aud" value="Maybe">
+            <label for="aud">Maybe</label><br>
+        </fieldset>
+        
+        
+        <textarea placeholder="Additional Comments Here"></textarea>
+        
+        <section class="bu-row">
+        <input type="submit" id="submit" class="btn-primary">
+        <input type="reset" class="btn-danger">
+        </section>
+    </form>
+    
+</main>
+</div>
+
+
+</body>
+</html>
