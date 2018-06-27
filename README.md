@@ -1,24 +1,24 @@
 # Survey Form Read Me
 
-# [Live Page](https://wilsonj806.github.io/survey-form/)
+## [Live Page](https://wilsonj806.github.io/survey-form/)
 
-# Version
+## Version
 
 Version 1.0.0
 
 Versioning is done with [Semantic Versioning](https://semver.org)
 
-# Contributor(s)
+## Contributor(s)
 
 Wilson Jiang
 
-# Requirements
+## Requirements
 
 [Project Requirements](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form/) done by Free Code Camp
 
 
 
-# Personal Requirements
+## Personal Requirements
 
 - Keep `class` and `id` names clean
 - Design for mobile first
